@@ -46,6 +46,7 @@ def users
 @marty.image.attach(io: File.open('app/assets/images/users/marty.png'), filename: 'marty.png')
 end
 #test change
+#test 2
 def category
 Category.create(name: "Kitchen", emoji: "🍳" )
 Category.create(name: "Exercise equipment", emoji: "🏋️")
