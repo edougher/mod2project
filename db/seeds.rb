@@ -45,7 +45,7 @@ def users
 @marty = User.create(name: "Marty", username: "hamrat", contact_info: "312 397 8983, firstname.lastname@gmail.com", password: "123", password_confirmation: "123", bio: "This person is an occupation living in a neighborhood in chicago. They are interested in a topic, another topic, and an additional topic. For fun, they enjoy doing a hobby with their family and/or friends.", location_id: 2)
 @marty.image.attach(io: File.open('app/assets/images/users/marty.png'), filename: 'marty.png')
 end
-
+#test change
 def category
 Category.create(name: "Kitchen", emoji: "🍳" )
 Category.create(name: "Exercise equipment", emoji: "🏋️")
